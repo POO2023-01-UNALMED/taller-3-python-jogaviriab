@@ -23,7 +23,7 @@ class TV():
     def getMarca(self):
         return self.marca
     def getNumTV(self):
-        return self.numTV
+        return TV.numTV
     def getEstado(self):
         return self.estado
     
@@ -40,7 +40,7 @@ class TV():
     def setMarca(self,marca):
         self.marca = marca
     def setNumTV(self,numTV):
-        self.numTV = numTV
+        TV.numTV = numTV
 
     def turnOn(self):
         self.estado = True
@@ -59,7 +59,7 @@ class TV():
     def setCanal(self,canal):
         if self.estado == True and canal <=120 and canal >=1:
             self.canal = canal
-            
+
     def getCanal(self):
         return self.canal
 
