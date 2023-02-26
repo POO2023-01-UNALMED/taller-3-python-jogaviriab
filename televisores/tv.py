@@ -8,7 +8,7 @@ class TV():
         self.canal =1
         self.precio = 500
         self.control  = None
-        self.numTV+=1
+        TV.numTV+=1
         
 
     # Metodos get
@@ -39,7 +39,7 @@ class TV():
         self.volumen = volumen
     def setMarca(self,marca):
         self.marca = marca
-    def setNumTV(self,numTV):
+    def setNumTV(numTV):
         TV.numTV = numTV
 
     def turnOn(self):
