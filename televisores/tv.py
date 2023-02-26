@@ -22,7 +22,7 @@ class TV():
         return self.volumen
     def getMarca(self):
         return self.marca
-    def getNumTV(self):
+    def getNumTV():
         return TV.numTV
     def getEstado(self):
         return self.estado
